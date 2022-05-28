@@ -139,10 +139,14 @@
 }
 
 /* PRODUCTIVE SECTION */
+.bg-curve-desktop{
+    margin-top: 163px;
+    background-color: #ffffff;
+}
 .productive {
     width: 1520px;
-    height: 838px;
-    margin-top: 163px;
+    height: 724px;
+    margin-top: -5px;
     background-color: #F8F8FE;
 }
 
@@ -157,13 +161,14 @@
 .productive--content {
     margin-left: 80px;
     width: 650px;
-    height: 239px;
+    height: 332px;
+    padding-top: 65px;
 }
 
 .productive--content h1 {
     width: 650px;
     height: 47px;
-    padding-top: 179px;
+    /* padding-top: 179px; */
     font-family: 'Raleway';
     font-weight: 700;
     line-height: 47px;
@@ -182,7 +187,6 @@
 .productive--content h4 {
     width: 529px;
     height: 48px;
-    margin-top: 16px;
     margin-bottom: 25px;
     padding-top: 16px;
     font-family: 'Open Sans';
@@ -223,7 +227,7 @@
     width: 356px;
     height: 215px;
     margin-left: 80px;
-    margin-top: 210px;
+    margin-top: 45px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
     border-radius: 5px;
