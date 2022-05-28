@@ -143,6 +143,9 @@
     margin-top: 163px;
     background-color: #ffffff;
 }
+.bg-curve-mobile{
+    display: none;
+}
 .productive {
     width: 1520px;
     height: 724px;
@@ -561,14 +564,21 @@
         margin-left: 0;
     }
 
+    .bg-curve-desktop{
+        display: none;
+    }
+    .bg-curve-mobile{
+        display: block;
+        margin-top: -138px;
+    }
     .productive {
         position: absolute;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         width: 375px;
-        height: 961px;
-        margin-top: -250px;
+        height: 908px;
+        margin-top: -5px;
     }
 
     .productive .image {
@@ -585,9 +595,8 @@
         position: absolute;
         width: 375px;
         margin-left: 0;
-        margin-top: 90px;
         margin-right: 0;
-        height: 250px;
+        height: 263px;
     }
 
     .productive--content h1 {
@@ -694,7 +703,7 @@
         flex-direction: column;
         width: 375px;
         height: 345px;
-        margin-top: 800px;
+        margin-top: 903px;
     }
 
     .cta--content {
